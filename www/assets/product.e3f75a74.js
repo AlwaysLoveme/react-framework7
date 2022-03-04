@@ -1,0 +1,1 @@
+import{az as i,j as a,P as d,a as e,N as n,at as u,B as l}from"./vendor.21d8d9e7.js";const f=s=>{const o=s.f7route.params.id,c=i("products");let t;return c.forEach(r=>{r.id===o&&(t=r)}),a(d,{name:"product",children:[e(n,{title:t.title,backLink:"Back"}),a(u,{children:["About"," ",t.title]}),e(l,{strong:!0,children:t.description})]})};export{f as default};

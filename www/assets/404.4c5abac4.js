@@ -1,0 +1,1 @@
+import{j as e,P as o,a,N as t,B as n}from"./vendor.21d8d9e7.js";const s=()=>e(o,{children:[a(t,{title:"Not found",backLink:"Back"}),e(n,{strong:!0,children:[a("p",{children:"Sorry"}),a("p",{children:"Requested content not found."})]})]});export{s as default};

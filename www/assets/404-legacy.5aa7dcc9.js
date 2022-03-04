@@ -1,0 +1,1 @@
+System.register(["./vendor-legacy.9a6e2bd7.js"],(function(e){"use strict";var t,n,r,c,i;return{setters:[function(e){t=e.j,n=e.P,r=e.a,c=e.N,i=e.B}],execute:function(){e("default",(()=>t(n,{children:[r(c,{title:"Not found",backLink:"Back"}),t(i,{strong:!0,children:[r("p",{children:"Sorry"}),r("p",{children:"Requested content not found."})]})]})))}}}));
