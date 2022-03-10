@@ -1,0 +1,1 @@
+System.register(["./vendor-legacy.015167c6.js"],(function(e){"use strict";var t,n,c;return{setters:[function(e){t=e.j,n=e.a9,c=e.ae}],execute:function(){e("default",(()=>(console.log(123),t(n,{children:t(c,{title:"发起群聊",backLink:!0})}))))}}}));

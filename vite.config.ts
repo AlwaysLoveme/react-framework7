@@ -1,11 +1,11 @@
-import {resolve} from 'path';
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import legacy from '@vitejs/plugin-legacy';
 
 const SRC_DIR = resolve(__dirname, './src');
 const PUBLIC_DIR = resolve(__dirname, './public');
-const BUILD_DIR = resolve(__dirname, './www',);
+const BUILD_DIR = resolve(__dirname, './www');
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -33,6 +33,6 @@ export default defineConfig({
 	},
 	server: {
 		host: true,
-		open: true
+		open: true,
 	},
 });

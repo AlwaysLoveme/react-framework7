@@ -14,13 +14,14 @@ import '@/styles/framework7-custom.less';
 // Import Icons and App Custom Styles
 import '@/styles/app.less';
 import '@/styles/icons.css';
+import '@/styles/common-class.less';
 
 // Init F7 React Plugin
 Framework7.use(Framework7React);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root'),
 );

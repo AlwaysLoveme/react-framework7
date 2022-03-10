@@ -1,0 +1,1 @@
+import{a8 as t,a9 as e,j as a,ae as r,af as s}from"./vendor.13e84326.js";const n=()=>t(e,{children:[a(r,{title:"React \u4EFF\u5FAE\u4FE1"}),a(s,{fill:!0,text:"nav",href:"/start-chat/"})]});export{n as default};

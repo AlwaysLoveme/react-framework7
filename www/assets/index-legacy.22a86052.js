@@ -1,0 +1,1 @@
+System.register(["./vendor-legacy.015167c6.js"],(function(e){"use strict";var t,n,r;return{setters:[function(e){t=e.j,n=e.a9,r=e.ae}],execute:function(){e("default",(()=>t(n,{children:t(r,{title:"我的"})})))}}}));

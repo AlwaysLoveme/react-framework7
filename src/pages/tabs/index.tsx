@@ -1,6 +1,7 @@
 import React from 'react';
-
 import { Page, Toolbar, Link, Tabs, Tab } from 'framework7-react';
+
+import './index.less';
 
 interface TabsItem {
   id: string;
@@ -12,13 +13,13 @@ const TabsPage: React.FC = () => {
 	const tabs: TabsItem[] = [
 		{
 			id: 'message',
-			icon: 'bubble_left_bubble_right_fill',
+			icon: 'chat_bubble_fill',
 			path: './',
 			text: '消息',
 		},
 		{
 			id: 'contract',
-			icon: 'book',
+			icon: 'book_fill',
 			path: './contract-book/',
 			text: '通讯录',
 		},
@@ -32,7 +33,7 @@ const TabsPage: React.FC = () => {
 
 	return (
 		<Page pageContent={false}>
-			<Toolbar tabbar labels bottom className="no-hairline">
+			<Toolbar tabbar labels bottom>
 				{tabs.map((item: TabsItem) => (
 					<Link
 						key={item.id}
@@ -45,11 +46,11 @@ const TabsPage: React.FC = () => {
 				))}
 			</Toolbar>
 
-			{/* <Tabs animated routable swipeable>
+			<Tabs routable>
 				{tabs.map((item: TabsItem) => (
 					<Tab key={item.id} id={item.id} className="page-content" />
 				))}
-			</Tabs> */}
+			</Tabs>
 		</Page>
 	);
 };
